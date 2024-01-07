@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GH14 WOMEN</title>
+    <link rel="stylesheet" href="clothestask.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"   href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<style>
+  ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#input_search{
+    width:350px;
+}
+.alink:hover{
+    transition: 400ms;
+    color: aliceblue;
+    font-size: 15px;
+}
+#footer{
+    line-height: 2.6;
+}
+#seconed_footer{
+    background-color: rgb(184, 186, 163);
+}
+#secfoot{
+    background-color: gray;
+}
+
+#btn_third_card:hover{
+    background-color: aliceblue;
+    transition: 350ms; 
+    color: black;
+}
+ #btn_seconed_card:hover{
+    background-color: aliceblue;
+    transition: 350ms;
+    color: black;
+}
+#btn_first_card:hover{
+    background-color: aliceblue;
+    transition: 350ms;
+    color: black;
+}
+a:hover{
+    color: aliceblue;
+    transition: 500ms;
+}
+</style>
+  </head>
+<body>
+
+    <!-- navbar -->
+    <section class="bg-dark ">
+        <nav class="navbar navbar-expand-lg bg-dark container d-flex p-3 mt-1">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light fw-bold" href="#"><img src="output_image.jpeg" width="60px" height="60px" class="rounded-pill" alt=""></a>
+            <button class="navbar-toggler border border-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothestask.html">Home</a>
+                </li>
+            
+                <button  class="ms-3 me-3 nav-item btn btn-dark"><a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothesmen.html" style="transition: 800ms;">Men</a></button>
+                <button class="  nav-item btn btn-dark"><a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clotheswomen.html" style="transition: 800ms;">Women</a></button>
+
+            </ul>
+            <form id="form_search" class="d-flex " role="search">
+                <input id="input_search" class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" style="gap: 90px;" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <button class="ms-3 me-3 nav-item btn btn-dark" id="sign_btn">Sign in</button>
+            <button class="nav-item btn btn-dark" id="login_btn" ><a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clotheslogin.html">Login</a></button>
+          </div>
+        </div>
+        </nav>
+    </section>
+<!-- finish navbar -->
+
+<!-- Card Of Suits -->
+<img style="display: none; position: absolute;" id="card_men_suit1" src="hoodiewomen1.jpg" class="card-img-top" alt="...">
+<img id="card_men_suit2" src="jackjones-plaincrewneckjumper-pink.webp" style="display: none; position: absolute;"  class="card-img-top" alt="...">
+<img id="card_men_suit3" src="Cropped Sweater Outfit.jpeg"  style="display: none; position: absolute;" class="card-img-top" alt="...">
+
+<section class="container-fluid mt-3  row">
+    <div class="col-2">
+<div class=" card rounded-5 bg-black" style="width: 13rem; height: 25rem;">
+    <img  src="hoodiewomen1.jpg " class="card-img-top" alt="...">
+    <div class="card-body text-white">
+    <h5 class="card-title">Women Hooded Sweatshirt Ladies Winter Warm </h5>
+    <p class="card-text ">
+        <span id="price1">£23.446.8</span> <del class="fw-light">£34.101</del></p>
+    <button class="btn btn-dark fw-bold" id="btn_first_card">Buy Now</button>
+    </div>
+</div>
+</div>
+<div class="col-2">
+<div class="card rounded-5 bg-black" style="width: 13rem; height: 25rem;">
+    <img  src="jackjones-plaincrewneckjumper-pink.webp" height="230px" class="card-img-top" alt="...">
+    <div class="card-body text-white">
+    <h5 class="card-title">PLAIN CREW NECK JUMPER</h5>
+    <p class="card-text ">
+        <span id="price2">£60</span> <del class="fw-light">£80</del></p>
+    <button class="btn btn-dark fw-bold" id="btn_seconed_card">Buy Now</button>
+    </div>
+</div>
+</div>
+<div class="col-3">
+  <div class="card rounded-5 bg-black" style="width: 13rem; height: 25rem;">
+    <img src="Cropped Sweater Outfit.jpeg" height="210px" class="card-img-top">
+    <div class="card-body text-white">
+      <h5 class="card-title">Knit sweater Knit crop top Cropped wool sweater   </h5>
+      <p class="card-text">
+      <span id="price3">£17,99</span> <del class="fw-light">£25,99</del></p>
+      <button class="btn btn-dark fw-bold " id="btn_third_card">Buy Now</button>
+    </div>
+  </div>
+</div>
+
+<!--YOUR PURECHASES  -->
+<div class="col-5 d-inline" style="width: 400px;">
+  <h3 class="text-center">YOUR PURECHASES</h3><br>
+  <div class="card">
+    <div class="card-body p-2 rounded border border-dark border-2">
+      <span class=" me-5" id="empty_img"></span>
+      Price : <span class="" id="inner_price"></span>
+      <span>
+        <button id="min" class="btn btn-danger p-1 rounded-pill ms-4">-</button>
+      <input type="text" style="width: 50px;" value="0" class="ms-1 rounded me-1 p-0" id="ini">
+        <button id="plus" class="btn btn-success p-1 rounded-pill">+</button>
+    </span>
+    <input  type="reset" value="Reset" class="border border-danger border-3 rounded bg-white text-danger p-1" style="width: 60px;margin-left: 6px;" id="reset1" > 
+    </div>
+    
+  </div>
+</div>
+
+</section>
+
+<!---------------- Cards Of Casual ------------->
+
+<img id="casual_card1" style="display: none; position: absolute;" src="b6de93f1-52a1-4da3-b8fe-de72ee4e72b2.fb0955ab3a4fe207bc6a6993c399ca85.webp" height="225px" class="card-img-top" alt="...">
+<img id="casual_card3" style="display: none; position: absolute;" src="s-l1600.jpg" class="card-img-top" height="225px" alt="...">
+<img id="casual_card2" style="display: none; position: absolute;"   src="71BWF8gJ2JL._AC_SX569_.jpg" height="225px" class="card-img-top" alt="...">
+<section class="container-fluid mt-3  row">
+  <div class="col-2">
+<div class=" card rounded-5 bg-black" style="width: 13rem; height: 26rem;">
+  <img   src="b6de93f1-52a1-4da3-b8fe-de72ee4e72b2.fb0955ab3a4fe207bc6a6993c399ca85.webp" height="225px" class="card-img-top" alt="...">
+  <div class="card-body text-white">
+    <h5 class="card-title">Baggy Jeans For Girls</h5>
+    <p class="card-text ">
+     <span id="real_c_price1"> £19,99 </span><del class="fw-light">£25,99</del></p><br>
+    <button class="btn btn-dark fw-bold" id="btn_c_card1">Buy Now</button>
+  </div>
+</div>
+</div>
+<div class="col-2">
+<div class="card rounded-5 bg-black" style="width: 13rem; height: 26rem; ">
+  <img src="71BWF8gJ2JL._AC_SX569_.jpg" height="225px" class="card-img-top" alt="...">
+  <div class="card-body text-white">
+    <h5 class="card-title">American Eagle Women Suede Cropped Jacket</h5>
+    <p class="card-text ">
+    <span id="real_c_price2">£20</span> <del class="fw-light">£30</del></p>
+    <button class="btn btn-dark fw-bold" id="btn_c_card2">Buy Now</button>
+  </div>
+</div>
+</div>
+<div class="col-3">
+<div class="card rounded-5 bg-black" style="width: 13rem; height: 26rem;">
+  <img id="casual_card3" src="s-l1600.jpg" class="card-img-top" height="225px" alt="...">
+  <div class="card-body text-white">
+    <h5 class="card-title">Girls Ripped Jeans Elastic Waist Wide Leg Denim Baggy</h5>
+    <p class="card-text"><br>
+    <span id="real_c_price3">£6</span>  <del class="fw-light">£9</del></p>
+    <button class="btn btn-dark fw-bold " id="btn_c_card3">Buy Now</button>
+  </div>
+</div>
+</div>
+
+<!-- --------------------------------------------------------------------------------------- -->
+
+<!--YOUR PURECHASES  -->
+<div class="col-5" style="width: 400px;">
+  <h3 class="text-center">YOUR PURECHASES</h3><br>
+  <div class="card">
+    <div class="card-body p-2 rounded border border-dark border-2">
+      <span class=" me-5" id="empty_img2"></span>
+      Price : <span class="" id="inner_price2"></span>
+      <span>
+        <button id="min2" class="btn btn-danger p-1 rounded-pill ms-4">-</button>
+      <input type="text" style="width: 50px;" value="0" class="ms-1 rounded me-1 p-0" id="ini2">
+        <button id="plus2" class="btn btn-success p-1 rounded-pill">+</button>
+    </span>
+    <input  type="reset" value="Reset" class="border border-danger border-3 rounded bg-white text-danger p-1" style="width: 65px;margin-left: 6px; " id="reset2" > 
+    </div>
+  
+  </div>
+
+</div>
+
+<span class=" text-center mt-5">
+    <input type="submit" value="submit" class="btn btn-dark text-light text-center p-3">
+</span>
+</section><br>
+
+<!-- FOOTER -->
+<br>
+<section class=" container-fluid bg-black">
+  <footer id="footer" class="p-3 footer container-fluid bg-black ">
+      <div class="row">
+      <div class="col-4">
+      <ul>
+        <h5 class="fw-bold text-light" >Company</h5>    
+        <li><a class="alink" href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothesaboutus.html">About Us</a></li>
+        <li><a class="alink" href="">Our Services</a></li>
+        <li><a class="alink" href="">Contact Us</a></li>
+      </ul>
+      </div>
+      <div class="col-4">
+      <ul>
+        <h5 class="fw-bold text-light" >Online Shop</h5>  
+        <li class="text-white">Formal <a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothesmen.html" class="alink">Men</a>  , <a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clotheswomen.html" class="alink">Women</a></li>
+        <li class="text-light">Casual <a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothesmen.html" class="alink">Men</a>  , <a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clotheswomen.html" class="alink">Women</a></li>
+      </ul>
+      </div>
+      <div class="col-4">
+        <ul>
+          <h5 class="fw-bold text-light" >Follow Us</h5>  
+          <li><a class="alink" href="https://www.instagram.com/gyuoshy_14?igsh=Nng5amJyN21rcHI1"><i class="fa-brands fa-2xl fa-instagram"></i></a></li>
+          <li><a class="alink" id="face" href="https://www.facebook.com/profile.php?id=100050276316996&mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+          <li><a class="alink" href=""><i class="fa-brands fa-whatsapp fa-2xl"></i></a><li>
+        </ul>
+        </div>
+  </div>
+  </footer>
+  </section>
+  <footer id="seconed_footer" class="container-fluid p-3">© 2023 GH14</footer>
+  <script src="clothes.js"></script>
+      <script src="js/all.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

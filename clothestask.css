@@ -1,0 +1,111 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    transition: 400ms;
+    color: aliceblue;
+}
+
+.alog{
+    color: black;
+}
+.alink:hover{
+    transition: 300ms;
+    color: aliceblue;
+    font-size: 15px;
+}
+#footer{
+    line-height: 2.6;
+}
+#seconed_footer{
+    background-color: rgb(184, 186, 163);
+}
+#secfoot{
+    background-color: gray;
+}
+
+#btn_third_card:hover{
+    background-color: aliceblue;
+    transition: 350ms; 
+    color: black;
+}
+ #btn_seconed_card:hover{
+    background-color: aliceblue;
+    transition: 350ms;
+    color: black;
+}
+#btn_first_card:hover{
+    background-color: aliceblue;
+    transition: 350ms;
+    color: black;
+}
+#btn_c_card3:hover{
+    background-color: aliceblue;
+    transition: 350ms;
+    color: black;
+}
+
+#btn_c_card2:hover{
+    background-color: aliceblue;
+    transition: 350ms;
+    color: black;
+}
+#btn_c_card1:hover{
+    background-color: aliceblue;
+    transition: 350ms;
+    color: black;
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#input_search{
+    width:350px;
+}
+.alink:hover{
+    transition: 400ms;
+    color: aliceblue;
+    font-size: 15px;
+}
+#footer{
+    line-height: 2.6;
+}
+#seconed_footer{
+    background-color: rgb(184, 186, 163);
+}
+#secfoot{
+    background-color: gray;
+}
+
+#btn_third_card:hover{
+    background-color: aliceblue;
+    transition: 350ms; 
+    color: black;
+}
+ #btn_seconed_card:hover{
+    background-color: aliceblue;
+    transition: 350ms;
+    color: black;
+}
+#btn_first_card:hover{
+    background-color: aliceblue;
+    transition: 350ms;
+    color: black;
+}
+a:hover{
+    color: aliceblue;
+    transition: 500ms;
+}
+ #up-icon{
+
+direction: rtl;
+position: relative;
+} 

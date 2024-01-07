@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GH14</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="clothestask.css">
+    <style>
+        body{
+            background: linear-gradient(to bottom , rgba(5, 5, 5, 0.900) , rgba(5, 5, 5, 0.900)),url("Back-Wall-Photo.jpg");
+            background-size: cover;
+        }
+        .ini{
+            background-color: aliceblue;
+            border:3px solid aliceblue ;
+            border-radius: 10px;
+            padding: 5px;
+            padding-left: 10px;
+
+        }
+        #login_form{
+            box-shadow: 1px 1px 5px 5px rgba(245, 244, 244, 0.815);
+            margin: 30%;
+            border-radius: 15px;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section class="bg-dark ">
+        <nav id="navd" class="navbar navbar-expand-lg bg-dark container d-flex p-3 mt-1">
+          <div class="container-fluid">
+            <a class="navbar-brand text-light fw-bold" href="#"><img src="output_image.jpeg" width="60px" height="60px" class="rounded-pill" alt=""></a>
+            <button class="navbar-toggler border border-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothestask.html">Home</a>
+                </li>
+                <button  class="ms-3 me-3 nav-item btn btn-dark"><a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothesmen.html" style="transition: 800ms;">Men</a></button>
+              <button class="  nav-item btn btn-dark"><a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clotheswomen.html" style="transition: 800ms;">Women</a></button>
+              </ul>
+              <form id="form_search" class="d-flex " role="search">
+                <input id="input_search" class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" style="gap: 90px;" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+              <button class="ms-3 me-3 nav-item btn btn-dark" id="sign_btn">Sign in</button>
+              <button class="nav-item btn btn-dark" id="login_btn" ><a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clotheslogin.html">Login</a></button>
+            </div>
+          </div>
+        </nav>
+      </section>
+    <form class="mt-5 text-center text-light fw-bold" id="login_form"><br>
+        <h1 class="fw-bold mb-3 mt-5">Login Form</h1>
+        <br>
+        <i class="fa-solid fa-user me-3 fa-2x"></i><input   type="text" autofocus required placeholder ="Enter Your Name" class="ini" id="ini_name"><br>
+        <br>
+        <i class="fa-sharp fa-user fa-envelope me-3 fa-2x"></i><input type="email" class="ini" placeholder="Enter Your Email"  id="ini_email" required><br>
+        <br>
+        <i class="fa-sharp fa-user fa-lock me-3 fa-2x"></i><input type="password" name="" id="ini_password" class="ini" required><br>
+<br>
+        <a class="alink" href="https://www.instagram.com/gyuoshy_14?igsh=Nng5amJyN21rcHI1"><i class="fa-brands fa-2xl fa-instagram"></i></a>
+        <a class="alink" id="face" href="https://www.facebook.com/profile.php?id=100050276316996&mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+  <a class="alink" href="#"><i class="fa-brands fa-whatsapp fa-2xl"></i></a><br><br>
+        <input type="submit"  value="LOGIN" class="m-3 btn btn-dark fs-5" id="ini_submit"><br>
+    </form>
+<!-- </div> -->
+
+<div id="up-icon" class="m-5"><a href="#navd" class="up-icon fa-2xl"><i class="fa-solid fa-circle-chevron-up"></i></a></div>
+
+<section class=" container-fluid bg-dark">
+  <footer id="footer" class="p-3 footer container-fluid bg-dark ">
+      <div class="row">
+      <div class="col-4">
+      <ul>
+        <h5 class="fw-bold text-light" >Company</h5>    
+        <li><a class="alink" href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothesaboutus.html">About Us</a></li>
+        <li><a class="alink" href="">Our Services</a></li>
+        <li><a class="alink" href="">Contact Us</a></li>
+      </ul>
+      </div>
+      <div class="col-4">
+      <ul>
+        <h5 class="fw-bold text-light" >Online Shop</h5>  
+        <li class="text-white">Formal <a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothesmen.html" style="transition: 800ms;">Men</a> , <a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clotheswomen.html" style="transition: 800ms;">Women</a></li>
+        <li class="text-light">Casual <a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clothesmen.html" class="alink">Men</a>  ,             <a href="file:///C:/Users/EL-TAWHEED/Desktop/gh14/clotheswomen.html" class="alink">Women</a></li>
+      </ul>
+      </div>
+      <div class="col-4">
+        <ul>
+          <h5 class="fw-bold text-light" >Follow Us</h5>  
+          <li><a class="alink" href="https://www.instagram.com/gyuoshy_14?igsh=Nng5amJyN21rcHI1"><i class="fa-brands fa-2xl fa-instagram"></i></a></li>
+          <li><a class="alink" id="face" href="https://www.facebook.com/profile.php?id=100050276316996&mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+          <li><a class="alink" href=""><i class="fa-brands fa-whatsapp fa-2xl"></i></a><li>
+        </ul>
+        </div>
+  </div>
+  </footer>
+  </section>
+  <footer id="seconed_footer" class="container-fluid p-3">© 2023 GH14</footer>
+
+  <script>
+    let form = document.getElementById("login_form");
+    let username = document.getElementById('ini_name');
+    let password = document.getElementById('ini_password');
+    let email = document.getElementById("ini_email");
+ 
+    form.addEventListener("submit" , (r)=>{
+     if(username.value=="" || username.value==null || username.value !== Number()){
+       alert("Name must have numbers ")
+       r.preventDefault();
+     }
+     if(password.value.length <=8 ){
+       alert("Password must be at least 8 characters long.")
+       r.preventDefault();
+     }
+    } )
+ 
+ </script>
+      <script src="js/all.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
